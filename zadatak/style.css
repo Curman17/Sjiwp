@@ -15,4 +15,9 @@ h1{
 
 }
 
-.hero.is-shop { background: linear-gradient(135deg, #0f2a43 0%, #1b5e83 100%); }  
+.hero.is-shop { background: linear-gradient(135deg, #0f2a43 0%, #1b5e83 100%); } 
+
+.card { height: 100%; }
+
+.card-image img { object-fit: cover; }
+
