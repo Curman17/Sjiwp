@@ -21,3 +21,5 @@ h1{
 
 .card-image img { object-fit: cover; }
 
+
+.stat-number { font-variant-numeric: tabular-nums; }
