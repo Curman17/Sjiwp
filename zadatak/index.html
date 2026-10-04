@@ -27,7 +27,6 @@
       <div class="navbar-end">
         <a class="navbar-item" href="#pocetna">Početna</a>
         <a class="navbar-item" href="#proizvodi">Proizvodi</a>
-        <a class="navbar-item" href="#recenzije">Recenzije</a>
         <a class="navbar-item" href="#kontakt">Kontakt</a>
         <div class="navbar-item">
           <a class="button is-link" href="#kontakt">Pošalji Upit</a>
@@ -157,7 +156,7 @@
             <article class="card">
               <div class="card-image">
                 <figure class="image is-16by9">
-                  <img src="https://placehold.co/640x360/8a5a00/ffffff?text=Mreza" alt="Usmjernik i mrežna oprema">
+                  <img src="https://placehold.co/640x360/8a5a00/ffffff?text=Mreža" alt="Usmjernik i mrežna oprema">
                 </figure>
               </div>
               <div class="card-content">
@@ -267,6 +266,75 @@
       </div>
     </section>
 
+
+
+     <section id="kontakt" class="section">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-two-thirds-tablet is-half-desktop">
+            <h2 class="title is-2 has-text-centered">Kontaktirajte nas</h2>
+            <p class="subtitle is-5 has-text-centered">Odgovaramo unutar jednog radnog dana.</p>
+
+            <form action="#" method="post" class="box">
+              <div class="field">
+                <label class="label" for="ime">Ime i prezime</label>
+                <div class="control">
+                  <input class="input" type="text" id="ime" name="ime" placeholder="Npr. Tristan Matković" required>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label" for="email">E-mail adresa</label>
+                <div class="control">
+                  <input class="input" type="email" id="email" name="email" placeholder="tristan@gmail.com" required>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label" for="kategorija">Zanima me</label>
+                <div class="control">
+                  <div class="select is-fullwidth">
+                    <select id="kategorija" name="kategorija">
+                      <option>Laptopi</option>
+                      <option>Komponente</option>
+                      <option>Monitori</option>
+                      <option>Periferija</option>
+                      <option>Mrežna oprema</option>
+                      <option>Pohrana podataka</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label" for="poruka">Poruka</label>
+                <div class="control">
+                  <textarea class="textarea" id="poruka" name="poruka" rows="4" placeholder="Opišite što tražite" required></textarea>
+                </div>
+              </div>
+
+              <div class="field">
+                <div class="control">
+                  <label class="checkbox" for="privola">
+                    <input type="checkbox" id="privola" name="privola" required>
+                    Slažem se s obradom podataka radi odgovora na upit.
+                  </label>
+                </div>
+              </div>
+
+              <div class="field is-grouped is-grouped-right">
+                <div class="control">
+                  <button class="button is-link is-medium" type="submit">Pošalji upit</button>
+                </div>
+                <div class="control">
+                  <button class="button is-light is-medium" type="reset">Očisti</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
