@@ -23,3 +23,32 @@ h1{
 
 
 .stat-number { font-variant-numeric: tabular-nums; }
+
+
+
+@media screen and (max-width: 1023px) {
+
+
+  .navbar-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: auto;
+    min-width: 14rem;
+    text-align: right;
+    visibility: hidden;
+    opacity: 0;
+    
+    transition: opacity 0.15s ease 0.25s, visibility 0s linear 0.25s;
+  }
+
+ 
+  .navbar:has(.navbar-burger:hover) .navbar-menu,
+  .navbar-menu:hover {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+  }
+  
+}
